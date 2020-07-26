@@ -1,0 +1,38 @@
+{
+  "name": "rtsp-to-ws-module",
+  "version": "1.0.0",
+  "description": "This Module will be part of backend which is helpful to use rtsp streaming over websockets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kavyeshs41/rtsp-to-ws-module.git"
+  },
+  "keywords": [
+    "rtsp",
+    "websocket",
+    "low-latency",
+    "streaming"
+  ],
+  "author": "Kavyesh Shah",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kavyeshs41/rtsp-to-ws-module/issues"
+  },
+  "homepage": "https://github.com/Kavyeshs41/rtsp-to-ws-module#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dockerode": "^3.2.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "get-port": "^5.1.1",
+    "http": "0.0.1-security",
+    "https": "^1.0.0",
+    "nodemon": "^2.0.4",
+    "path": "^0.12.7",
+    "public-ip": "^4.0.2"
+  }
+}
