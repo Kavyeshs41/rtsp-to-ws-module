@@ -26,9 +26,7 @@ app.all('/*', function (req, res, next) {
   res.header('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE,OPTIONS');
   // Set custom headers for CORS
   res.header('Access-Control-Allow-Headers', 'Content-type,Accept,X-Access-Token, Authorization');
-  if (req.headers["accept-language"]) { // If header send language, then set to that language
-    i18n.setLocale(req.headers["accept-language"]);
-  }
+
   if (req.method == 'OPTIONS') {
     res
       .status(200)
